@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+
+// importing the pod header files
 #import "SWTableViewCell.h"
 #import "UIScrollView+APParallaxHeader.h"
 
-@interface FlashyTvTableViewController : UITableViewController
+//confirm below to the protocol so we can use the SWTableViewCellDelegate
+
+@interface FlashyTvTableViewController : UITableViewController <SWTableViewCellDelegate>
 
 @end
